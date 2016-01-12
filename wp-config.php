@@ -82,6 +82,10 @@ define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
 
+/* for local development only - TURN OFF WHEN GOING LIVE */
+define('WP_HOME','http://localhost');
+define('WP_SITEURL','http://localhost');
+
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
     define('ABSPATH', dirname(__FILE__) . '/');
