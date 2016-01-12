@@ -1,0 +1,719 @@
+/* line 1, ../../scss/pages/motivational.scss */
+.page-motivational, .page-advice {
+  background: #8dc63f;
+}
+/* line 4, ../../scss/pages/motivational.scss */
+.page-motivational #page > .container, .page-advice #page > .container {
+  padding: 90px 0 85px;
+  overflow: visible;
+}
+/* line 8, ../../scss/pages/motivational.scss */
+.page-motivational footer, .page-advice footer {
+  z-index: -1;
+}
+/* line 11, ../../scss/pages/motivational.scss */
+.page-motivational header, .page-advice header {
+  box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.1);
+}
+/* line 16, ../../scss/pages/motivational.scss */
+.page-motivational header .logo-container, .page-advice header .logo-container {
+  box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.1);
+}
+/* line 22, ../../scss/pages/motivational.scss */
+.page-motivational aside, .page-advice aside {
+  float: left;
+  width: 470px;
+  min-height: 1200px;
+  height: 100%;
+  padding: 50px 25px 0;
+  background: #fff;
+}
+/* line 30, ../../scss/pages/motivational.scss */
+.page-motivational aside:before, .page-advice aside:before {
+  content: "";
+  bottom: 74px;
+  left: -5px;
+  position: absolute;
+  height: 10px;
+  width: 478px;
+  box-shadow: 0 -7px 5px -3px #dfe4d7;
+  z-index: 998;
+}
+/* line 42, ../../scss/pages/motivational.scss */
+.page-motivational .page-title, .page-advice .page-title {
+  display: block;
+  text-align: center;
+}
+/* line 46, ../../scss/pages/motivational.scss */
+.page-motivational .tabs, .page-advice .tabs {
+  margin-top: 40px;
+}
+/* line 49, ../../scss/pages/motivational.scss */
+.page-motivational .tab, .page-advice .tab {
+  margin-bottom: 20px;
+}
+/* line 54, ../../scss/pages/motivational.scss */
+.page-motivational .tab.active .tab-header, .page-advice .tab.active .tab-header {
+  background: #8dc63f;
+}
+/* line 57, ../../scss/pages/motivational.scss */
+.page-motivational .tab.active .tab-content, .page-advice .tab.active .tab-content {
+  display: block;
+}
+/* line 62, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header, .page-advice .tab-header {
+  margin-right: -25px;
+  background: #fff;
+  padding: 10px 12px;
+  border-bottom-left-radius: 60px;
+  border-top-left-radius: 60px;
+}
+/* line 69, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header:hover, .page-advice .tab-header:hover {
+  cursor: pointer;
+}
+/* line 73, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header .icon-container, .page-advice .tab-header .icon-container {
+  width: 99px;
+  height: 99px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+/* line 80, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header .first-icon, .page-advice .tab-header .first-icon {
+  background: url("/wp-content/themes/moralcourage/images/teaching-page/young-person.png") no-repeat;
+}
+/* line 83, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header .second-icon, .page-advice .tab-header .second-icon {
+  background: url("/wp-content/themes/moralcourage/images/teaching-page/public-service-student.png") no-repeat;
+}
+/* line 86, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header .third-icon, .page-advice .tab-header .third-icon {
+  background: url("/wp-content/themes/moralcourage/images/teaching-page/event-organizer.png") no-repeat;
+}
+/* line 89, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header .fourth-icon, .page-advice .tab-header .fourth-icon {
+  background: url("/wp-content/themes/moralcourage/images/teaching-page/educator.png") no-repeat;
+}
+/* line 92, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header .fifth-icon, .page-advice .tab-header .fifth-icon {
+  background: url("/wp-content/themes/moralcourage/images/teaching-page/business-executive.png") no-repeat;
+}
+/* line 95, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header .sixth-icon, .page-advice .tab-header .sixth-icon {
+  background: url("/wp-content/themes/moralcourage/images/teaching-page/spiritual-lider.png") no-repeat;
+}
+/* line 98, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header h3, .page-advice .tab-header h3 {
+  font-sizE: 24px;
+}
+/* line 102, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header .text-container, .page-advice .tab-header .text-container {
+  width: 305px;
+  margin-left: 15px;
+}
+/* line 106, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header .text-container h3, .page-advice .tab-header .text-container h3 {
+  margin: 10px 0;
+}
+/* line 109, ../../scss/pages/motivational.scss */
+.page-motivational .tab-header .text-container span, .page-advice .tab-header .text-container span {
+  font-size: 18px;
+  line-height: 1.3;
+}
+/* line 115, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content, .page-advice .tab-content {
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  width: 725px;
+  left: 470px;
+  top: 90px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 45px 20px 45px 0;
+}
+/* line 127, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content h2, .page-advice .tab-content h2 {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 1.4;
+}
+/* line 134, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content p, .page-advice .tab-content p {
+  padding-left: 40px;
+  font-family: 'Open Sans';
+  color: #fff;
+  font-weight: 300;
+  font-size: 18px;
+}
+/* line 141, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video, .page-advice .tab-content .section-video {
+  margin-top: 45px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 25px 0 15px 48px;
+  background: #afd779;
+  box-shadow: 4px 0px 25px 12px #afd779;
+  -moz-box-shadow: 4px 0px 25px 12px #afd779;
+  -webkit-box-shadow: 4px 0px 25px 12px #afd779;
+}
+/* line 152, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .range, .page-motivational .tab-content .section-video .video-subtitle, .page-motivational .tab-content .section-video .social-btn, .page-advice .tab-content .section-video .range, .page-advice .tab-content .section-video .video-subtitle, .page-advice .tab-content .section-video .social-btn {
+  display: none;
+}
+/* line 155, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-main, .page-advice .tab-content .section-video .video-main {
+  float: left;
+  width: 368px;
+}
+/* line 159, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-main .item, .page-advice .tab-content .section-video .video-main .item {
+  display: table;
+}
+/* line 162, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-main .item .left, .page-advice .tab-content .section-video .video-main .item .left {
+  display: table-footer-group;
+}
+/* line 165, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-main .item .video-info, .page-advice .tab-content .section-video .video-main .item .video-info {
+  display: table-header-group;
+}
+/* line 169, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-main .video-link, .page-advice .tab-content .section-video .video-main .video-link {
+  position: relative;
+  width: 365px;
+  height: 370px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+/* line 177, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-main .video-info, .page-advice .tab-content .section-video .video-main .video-info {
+  position: relative;
+}
+/* line 180, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-main .title, .page-advice .tab-content .section-video .video-main .title {
+  font-size: 24px;
+}
+/* line 183, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-main .video-tip, .page-advice .tab-content .section-video .video-main .video-tip {
+  margin: 15px 0;
+  color: #000;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 14px;
+}
+/* line 192, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .shadow-div, .page-advice .tab-content .section-video .shadow-div {
+  position: relative;
+  float: left;
+  width: 196px;
+  height: 420px;
+  margin-top: 45px;
+  margin-left: 75px;
+}
+/* line 200, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .shadow-div:after, .page-advice .tab-content .section-video .shadow-div:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 5px;
+  left: 0;
+  right: 0;
+  background: #b8db87;
+  box-shadow: 0px -18px 43px 38px #b8db87;
+  opacity: 0.7;
+}
+/* line 213, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-thumbs, .page-advice .tab-content .section-video .video-thumbs {
+  position: relative;
+  height: 420px;
+  overflow-y: scroll;
+}
+/* line 218, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-thumbs .load-more, .page-advice .tab-content .section-video .video-thumbs .load-more {
+  display: none;
+}
+/* line 221, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-thumbs .item, .page-advice .tab-content .section-video .video-thumbs .item {
+  position: relative;
+  display: block;
+  width: 170px;
+  margin-bottom: 18px;
+  margin-right: 15px;
+}
+/* line 228, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-thumbs .item img, .page-advice .tab-content .section-video .video-thumbs .item img {
+  width: 100%;
+}
+/* line 231, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-thumbs .item .title, .page-advice .tab-content .section-video .video-thumbs .item .title {
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  font-weight: normal;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+/* line 250, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-thumbs .item:hover .title, .page-advice .tab-content .section-video .video-thumbs .item:hover .title {
+  opacity: 1;
+}
+/* line 254, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-video .video-thumbs .item.active .title, .page-advice .tab-content .section-video .video-thumbs .item.active .title {
+  margin: 38px 0 80px 10px;
+  display: block;
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  font-size: 24px;
+}
+/* line 264, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-text, .page-advice .tab-content .section-text {
+  padding: 35px 0 35px 23px;
+}
+/* line 267, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-text h2, .page-advice .tab-content .section-text h2 {
+  margin-bottom: 45px;
+}
+/* line 270, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-text p, .page-advice .tab-content .section-text p {
+  width: 180px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+}
+/* line 280, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-text .middle-paragraph, .page-advice .tab-content .section-text .middle-paragraph {
+  margin: 0 48px;
+  position: relative;
+}
+/* line 284, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-text .middle-paragraph:before, .page-motivational .tab-content .section-text .middle-paragraph:after, .page-advice .tab-content .section-text .middle-paragraph:before, .page-advice .tab-content .section-text .middle-paragraph:after {
+  content: "";
+  position: absolute;
+  top: -32px;
+  background: url("/wp-content/themes/moralcourage/images/vertical-separator.png") no-repeat;
+  height: 193px;
+  width: 10px;
+}
+/* line 292, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-text .middle-paragraph:before, .page-advice .tab-content .section-text .middle-paragraph:before {
+  left: -30px;
+}
+/* line 295, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-text .middle-paragraph:after, .page-advice .tab-content .section-text .middle-paragraph:after {
+  right: -30px;
+}
+/* line 299, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-text a, .page-motivational .tab-content .section-text span, .page-advice .tab-content .section-text a, .page-advice .tab-content .section-text span {
+  display: block;
+  text-align: center;
+}
+/* line 303, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-text span, .page-advice .tab-content .section-text span {
+  margin: 55px 0 15px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+}
+/* line 310, ../../scss/pages/motivational.scss */
+.page-motivational .tab-content .section-text a, .page-advice .tab-content .section-text a {
+  color: #fff;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* line 321, ../../scss/pages/motivational.scss */
+#video-NuR5o1yzdk8, #video-TEGKUPMUoC4 {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 335, ../../scss/pages/motivational.scss */
+  .page-motivational #page > .container, .page-advice #page > .container {
+    overflow: hidden;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 170px;
+  }
+  /* line 341, ../../scss/pages/motivational.scss */
+  .page-motivational aside, .page-advice aside {
+    float: none;
+    width: 100%;
+    padding: 28px 1px 0;
+    margin-top: -2px;
+  }
+  /* line 347, ../../scss/pages/motivational.scss */
+  .page-motivational aside:before, .page-advice aside:before {
+    bottom: 155px;
+    left: 0;
+    right: 0;
+  }
+  /* line 353, ../../scss/pages/motivational.scss */
+  .page-motivational .page-title, .page-advice .page-title {
+    font-size: 30px;
+  }
+  /* line 356, ../../scss/pages/motivational.scss */
+  .page-motivational .tabs, .page-advice .tabs {
+    margin-top: 25px;
+  }
+  /* line 359, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-header, .page-advice .tab-header {
+    margin-right: 0;
+  }
+  /* line 362, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-header h3, .page-advice .tab-header h3 {
+    font-size: 19px;
+  }
+  /* line 365, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-header .icon-container, .page-advice .tab-header .icon-container {
+    width: 78px;
+    height: 78px;
+    background-size: 78px 78px;
+  }
+  /* line 370, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-header .text-container, .page-advice .tab-header .text-container {
+    width: 265px;
+  }
+  /* line 373, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-header .text-container span, .page-advice .tab-header .text-container span {
+    font-size: 14px;
+  }
+  /* line 378, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content, .page-advice .tab-content {
+    position: relative;
+    width: 100%;
+    left: auto;
+    top: auto;
+    padding: 30px 0;
+    background: #8dc63f;
+    margin-top: 10px;
+  }
+  /* line 388, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content h2, .page-advice .tab-content h2 {
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 27px;
+  }
+  /* line 394, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content p, .page-advice .tab-content p {
+    padding: 0 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  /* line 400, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .shadow-cover:before, .page-advice .tab-content .shadow-cover:before {
+    display: none;
+  }
+  /* line 404, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-video, .page-advice .tab-content .section-video {
+    box-shadow: none;
+    padding: 20px 5px 30px 5px;
+  }
+  /* line 408, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-video .shadow-div, .page-motivational .tab-content .section-video .video-thumbs, .page-advice .tab-content .section-video .shadow-div, .page-advice .tab-content .section-video .video-thumbs {
+    height: auto;
+  }
+  /* line 411, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-video .video-thumbs .load-more, .page-advice .tab-content .section-video .video-thumbs .load-more {
+    width: 170px;
+    color: #fff;
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+  }
+  /* line 420, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-video .shadow-div:after, .page-advice .tab-content .section-video .shadow-div:after {
+    display: none;
+  }
+  /* line 423, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-video .video-main, .page-advice .tab-content .section-video .video-main {
+    float: none;
+    width: 100%;
+  }
+  /* line 427, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-video .video-main .item .left, .page-advice .tab-content .section-video .video-main .item .left {
+    float: none;
+    text-align: center;
+  }
+  /* line 431, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-video .video-main .video-link, .page-advice .tab-content .section-video .video-main .video-link {
+    width: 306px;
+    height: 306px;
+  }
+  /* line 435, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-video .video-main .video-tip, .page-advice .tab-content .section-video .video-main .video-tip {
+    margin: 13px 0;
+  }
+  /* line 439, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-video .shadow-div, .page-advice .tab-content .section-video .shadow-div {
+    float: none;
+    margin: 40px auto 0;
+  }
+  /* line 444, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-text, .page-advice .tab-content .section-text {
+    padding: 25px 20px 30px;
+  }
+  /* line 447, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-text h2, .page-advice .tab-content .section-text h2 {
+    margin-bottom: 25px;
+  }
+  /* line 450, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-text p, .page-advice .tab-content .section-text p {
+    width: 90%;
+    display: block;
+    padding: 0;
+  }
+  /* line 455, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-text .middle-paragraph, .page-advice .tab-content .section-text .middle-paragraph {
+    margin: 75px 0;
+  }
+  /* line 458, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-text .middle-paragraph:before, .page-advice .tab-content .section-text .middle-paragraph:before {
+    left: 50%;
+    top: -135px;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+  /* line 467, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-text .middle-paragraph:after, .page-advice .tab-content .section-text .middle-paragraph:after {
+    right: 50%;
+    top: 30px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  /* line 477, ../../scss/pages/motivational.scss */
+  .page-motivational .tab-content .section-text span, .page-advice .tab-content .section-text span {
+    margin: 20px 0 40px;
+    font-size: 18px;
+  }
+}
+/* line 489, ../../scss/pages/motivational.scss */
+.page-advice aside {
+  min-height: 1545px;
+}
+/* line 494, ../../scss/pages/motivational.scss */
+.page-advice .section-text .left-column, .page-advice .section-text .right-column {
+  width: 310px;
+}
+/* line 497, ../../scss/pages/motivational.scss */
+.page-advice .section-text .left-column .paragraph-container, .page-advice .section-text .right-column .paragraph-container {
+  position: relative;
+  width: auto;
+  margin-bottom: 60px;
+  text-align: left;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #000;
+  font-size: 18px;
+}
+/* line 507, ../../scss/pages/motivational.scss */
+.page-advice .section-text .left-column .paragraph-container:before, .page-advice .section-text .right-column .paragraph-container:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 16px;
+  background: url("/wp-content/themes/moralcourage/images/horizontal-separator.png") no-repeat;
+  height: 14px;
+  width: 313px;
+  z-index: 999;
+}
+/* line 520, ../../scss/pages/motivational.scss */
+.page-advice .section-text .left-column {
+  float: left;
+}
+/* line 523, ../../scss/pages/motivational.scss */
+.page-advice .section-text .right-column {
+  float: right;
+}
+/* line 527, ../../scss/pages/motivational.scss */
+.page-advice .btn-container {
+  text-align: center;
+}
+/* line 530, ../../scss/pages/motivational.scss */
+.page-advice .contact-btn {
+  display: inline-block;
+  clear: both;
+  padding: 13px 17px;
+  border: solid 1px #fff;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  background: -webkit-linear-gradient(top, #f29820, #ee7e1a);
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+}
+/* line 545, ../../scss/pages/motivational.scss */
+.page-advice .testimonials {
+  padding-left: 35px;
+  margin-top: 40px;
+}
+/* line 549, ../../scss/pages/motivational.scss */
+.page-advice .testimonials h3 {
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 45px;
+  margin-left: -35px;
+}
+/* line 556, ../../scss/pages/motivational.scss */
+.page-advice .testimonials .testimonial-box {
+  position: relative;
+  background: #d1e8b2;
+  padding: 29px 40px 29px 65px;
+  margin-bottom: 35px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+/* line 565, ../../scss/pages/motivational.scss */
+.page-advice .testimonials .testimonial-box:before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 35px;
+  height: 28px;
+  background: url("/wp-content/themes/moralcourage/images/quotes.png") no-repeat;
+  z-index: 999;
+}
+/* line 577, ../../scss/pages/motivational.scss */
+.page-advice .testimonials .testimonial-box em {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.4;
+}
+/* line 583, ../../scss/pages/motivational.scss */
+.page-advice .testimonials .testimonial-box b {
+  display: block;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10px;
+}
+/* line 592, ../../scss/pages/motivational.scss */
+.page-advice .testimonials .testimonial-box.arrow-top-left {
+  position: relative;
+}
+/* line 595, ../../scss/pages/motivational.scss */
+.page-advice .testimonials .testimonial-box.arrow-top-left:after {
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: 200px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom: 18px solid #d1e8b2;
+}
+/* line 607, ../../scss/pages/motivational.scss */
+.page-advice .testimonials .testimonial-box.arrow-top-right {
+  position: relative;
+}
+/* line 610, ../../scss/pages/motivational.scss */
+.page-advice .testimonials .testimonial-box.arrow-top-right:after {
+  content: "";
+  position: absolute;
+  top: -18px;
+  right: 200px;
+  width: 0;
+  height: 0;
+  border-right: 15px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 18px solid #d1e8b2;
+}
+/* line 622, ../../scss/pages/motivational.scss */
+.page-advice .testimonials .testimonial-box.arrow-bottom-right {
+  position: relative;
+}
+/* line 625, ../../scss/pages/motivational.scss */
+.page-advice .testimonials .testimonial-box.arrow-bottom-right:after {
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  right: 200px;
+  width: 0;
+  height: 0;
+  border-right: 15px solid transparent;
+  border-left: 1px solid transparent;
+  border-top: 18px solid #d1e8b2;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 644, ../../scss/pages/motivational.scss */
+  .page-advice .tab-content h2 {
+    margin-bottom: 65px;
+  }
+  /* line 647, ../../scss/pages/motivational.scss */
+  .page-advice .btn-container {
+    margin-top: -60px;
+  }
+  /* line 651, ../../scss/pages/motivational.scss */
+  .page-advice .section-text .left-column, .page-advice .section-text .right-column {
+    float: none;
+    width: 100%;
+  }
+  /* line 655, ../../scss/pages/motivational.scss */
+  .page-advice .section-text .left-column .paragraph-container, .page-advice .section-text .right-column .paragraph-container {
+    font-size: 16px;
+    margin-bottom: 80px;
+  }
+  /* line 659, ../../scss/pages/motivational.scss */
+  .page-advice .section-text .left-column .paragraph-container:before, .page-advice .section-text .right-column .paragraph-container:before {
+    top: -140px;
+    left: 50%;
+    margin-left: -5px;
+    height: 193px;
+    width: 10px;
+    background: url("/wp-content/themes/moralcourage/images/vertical-separator.png") no-repeat;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+  /* line 674, ../../scss/pages/motivational.scss */
+  .page-advice .testimonials {
+    padding: 0 15px;
+  }
+}

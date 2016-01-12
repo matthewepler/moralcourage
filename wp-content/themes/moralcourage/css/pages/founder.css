@@ -1,0 +1,187 @@
+/* line 1, ../../scss/pages/founder.scss */
+.page-founder {
+  background: #ae2edd;
+}
+/* line 4, ../../scss/pages/founder.scss */
+.page-founder .page-title {
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  color: #fff;
+  font-size: 30px;
+  width: 670px;
+  margin: 40px auto 15px;
+}
+/* line 12, ../../scss/pages/founder.scss */
+.page-founder span.bold {
+  display: block;
+  width: 785px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-family: 'Open Sans Condensed';
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  line-height: 1.4;
+}
+/* line 23, ../../scss/pages/founder.scss */
+.page-founder section {
+  float: left;
+}
+/* line 26, ../../scss/pages/founder.scss */
+.page-founder .section-text {
+  width: 70%;
+  margin-top: 60px;
+  padding-right: 50px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 60px;
+  line-height: 1.4;
+}
+/* line 40, ../../scss/pages/founder.scss */
+.page-founder .section-video {
+  width: 29%;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  line-height: 1.3;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+}
+/* line 49, ../../scss/pages/founder.scss */
+.page-founder .section-video .video-link {
+  width: 330px;
+  height: 330px;
+  margin: 0 auto 20px;
+}
+/* line 55, ../../scss/pages/founder.scss */
+.page-founder .section-video i {
+  display: block;
+  margin-top: 10px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+/* line 67, ../../scss/pages/founder.scss */
+.page-founder .external-links {
+  position: relative;
+  top: -50px;
+  clear: left;
+  width: 880px;
+}
+/* line 73, ../../scss/pages/founder.scss */
+.page-founder .external-links .mask {
+  position: absolute;
+  top: -10px;
+  right: 15px;
+  display: inline-block;
+  width: 98px;
+  height: 98px;
+}
+/* line 83, ../../scss/pages/founder.scss */
+.page-founder .external-links .text-container {
+  display: inline-block;
+  margin-top: 25px;
+  min-height: 100px;
+  vertical-align: top;
+  position: relative;
+  padding-right: 120px;
+  margin-right: 4%;
+  width: 27%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 97, ../../scss/pages/founder.scss */
+.page-founder .external-links .text-container span {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+  text-transform: uppercase;
+}
+/* line 106, ../../scss/pages/founder.scss */
+.page-founder .external-links .text-container span .fa {
+  color: #fff;
+  font-size: 26px;
+}
+/* line 112, ../../scss/pages/founder.scss */
+.page-founder .external-links .text-container p {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #fff;
+}
+/* line 119, ../../scss/pages/founder.scss */
+.page-founder .external-links .text-container:first-child {
+  width: 33%;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 128, ../../scss/pages/founder.scss */
+  .page-founder .page-title {
+    width: 90%;
+    font-size: 26px;
+    text-align: center;
+  }
+  /* line 133, ../../scss/pages/founder.scss */
+  .page-founder span.bold {
+    width: 100%;
+    font-size: 21px;
+    text-align: center;
+  }
+  /* line 138, ../../scss/pages/founder.scss */
+  .page-founder .section-text, .page-founder .section-video {
+    float: none;
+    width: 100%;
+  }
+  /* line 142, ../../scss/pages/founder.scss */
+  .page-founder .section-text {
+    padding-right: 0;
+    margin-top: 30px;
+  }
+  /* line 146, ../../scss/pages/founder.scss */
+  .page-founder .section-text p {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+  /* line 152, ../../scss/pages/founder.scss */
+  .page-founder .section-video .swapping-images {
+    width: 100%;
+  }
+  /* line 155, ../../scss/pages/founder.scss */
+  .page-founder .section-video span {
+    width: 94%;
+  }
+  /* line 159, ../../scss/pages/founder.scss */
+  .page-founder .section-video .video-link {
+    width: 100%;
+  }
+  /* line 162, ../../scss/pages/founder.scss */
+  .page-founder .external-links {
+    top: 0;
+    margin-top: 40px;
+    width: 100%;
+    padding: 0 15px;
+  }
+  /* line 168, ../../scss/pages/founder.scss */
+  .page-founder .external-links .text-container {
+    width: 100%;
+  }
+  /* line 172, ../../scss/pages/founder.scss */
+  .page-founder .external-links .text-container:first-child {
+    width: 100%;
+  }
+  /* line 176, ../../scss/pages/founder.scss */
+  .page-founder .external-links .icon-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,38 @@
+.error404 {
+    background: #e0e0e0;
+
+    .title {
+      height: 230px;
+      width: 230px;
+      margin: 95px auto 0;
+      display: block;
+      text-align: center;
+      font-family: 'Open Sans Condensed';
+      font-weight: 700;
+      font-size: 102px;
+      line-height: 220px;
+      background: url('../../images/404border.png') center no-repeat;
+    }
+    .page-title {
+        margin: 40px auto 25px;
+        text-align: center;
+    }
+    .error-text {
+      text-align: center;
+      font-size: 18px;
+      font-family: 'Open Sans';
+      font-weight: 400;
+      line-height: 1.5;
+
+      a {
+        font-weight: 700;
+        color: #000;
+
+        &:hover {
+          color: #000;
+          text-decoration: underline!important;
+        }
+      }
+    }
+
+}

@@ -1,0 +1,40 @@
+/* line 1, ../../scss/pages/404.scss */
+.error404 {
+  background: #e0e0e0;
+}
+/* line 4, ../../scss/pages/404.scss */
+.error404 .title {
+  height: 230px;
+  width: 230px;
+  margin: 95px auto 0;
+  display: block;
+  text-align: center;
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  font-size: 102px;
+  line-height: 220px;
+  background: url("../../images/404border.png") center no-repeat;
+}
+/* line 16, ../../scss/pages/404.scss */
+.error404 .page-title {
+  margin: 40px auto 25px;
+  text-align: center;
+}
+/* line 20, ../../scss/pages/404.scss */
+.error404 .error-text {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* line 27, ../../scss/pages/404.scss */
+.error404 .error-text a {
+  font-weight: 700;
+  color: #000;
+}
+/* line 31, ../../scss/pages/404.scss */
+.error404 .error-text a:hover {
+  color: #000;
+  text-decoration: underline !important;
+}

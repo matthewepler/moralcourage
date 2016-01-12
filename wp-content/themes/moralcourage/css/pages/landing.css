@@ -1,0 +1,140 @@
+/* line 1, ../../scss/pages/landing.scss */
+.page-landing {
+  background: #e0e0e0;
+}
+/* line 3, ../../scss/pages/landing.scss */
+.page-landing .landing-text, .page-landing .landing-picture {
+  float: right;
+}
+/* line 6, ../../scss/pages/landing.scss */
+.page-landing .landing-picture {
+  width: 608px;
+  margin-left: 17px;
+}
+/* line 10, ../../scss/pages/landing.scss */
+.page-landing .landing-picture .mask {
+  height: 608px;
+  width: 608px;
+}
+/* line 16, ../../scss/pages/landing.scss */
+.page-landing .landing-text {
+  padding-top: 125px;
+  width: 560px;
+}
+/* line 19, ../../scss/pages/landing.scss */
+.page-landing .landing-text h2 {
+  margin-bottom: 20px;
+}
+/* line 22, ../../scss/pages/landing.scss */
+.page-landing .landing-text p {
+  display: block;
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 1.2;
+  color: #000;
+}
+/* line 30, ../../scss/pages/landing.scss */
+.page-landing .landing-text .text-orange {
+  display: block;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  font-family: 'Open Sans Condensed';
+  font-size: 41px;
+}
+/* line 38, ../../scss/pages/landing.scss */
+.page-landing .landing-text .cta:first-child {
+  margin-bottom: 45px;
+}
+/* line 41, ../../scss/pages/landing.scss */
+.page-landing .landing-text .bold.text-orange {
+  margin-bottom: 0;
+}
+/* line 44, ../../scss/pages/landing.scss */
+.page-landing .landing-text .btn-round-orange {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+/* line 51, ../../scss/pages/landing.scss */
+.page-landing .landing-text .btn-round-orange .fa {
+  font-size: 48px;
+  line-height: 75px;
+}
+/* line 56, ../../scss/pages/landing.scss */
+.page-landing .landing-text p {
+  width: 480px;
+  text-align: left;
+}
+/* line 60, ../../scss/pages/landing.scss */
+.page-landing .landing-text .slider-text p {
+  display: block;
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 1.2;
+  color: #000;
+}
+/* line 70, ../../scss/pages/landing.scss */
+.page-landing .landing-picture {
+  padding-top: 75px;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 78, ../../scss/pages/landing.scss */
+  .page-landing .landing-text, .page-landing .landing-picture {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+  /* line 83, ../../scss/pages/landing.scss */
+  .page-landing .landing-picture {
+    margin-left: 0;
+    padding-top: 0;
+  }
+  /* line 87, ../../scss/pages/landing.scss */
+  .page-landing .landing-picture .mask.grunge {
+    width: 100%;
+    height: 420px;
+  }
+  /* line 92, ../../scss/pages/landing.scss */
+  .page-landing .landing-text {
+    padding-top: 30px;
+  }
+  /* line 94, ../../scss/pages/landing.scss */
+  .page-landing .landing-text p, .page-landing .landing-text .cta {
+    width: 100%;
+  }
+  /* line 97, ../../scss/pages/landing.scss */
+  .page-landing .landing-text h2, .page-landing .landing-text .text-orange {
+    font-size: 24px;
+    display: block;
+  }
+  /* line 101, ../../scss/pages/landing.scss */
+  .page-landing .landing-text p {
+    font-size: 22px;
+  }
+  /* line 104, ../../scss/pages/landing.scss */
+  .page-landing .landing-text span {
+    margin-top: 30px;
+  }
+  /* line 106, ../../scss/pages/landing.scss */
+  .page-landing .landing-text span:first-child {
+    margin-bottom: 50px;
+  }
+  /* line 110, ../../scss/pages/landing.scss */
+  .page-landing .landing-text .bold.text-orange {
+    float: none;
+  }
+  /* line 113, ../../scss/pages/landing.scss */
+  .page-landing .landing-text .btn-round-orange {
+    display: block;
+    float: none;
+    margin: 30px auto 0;
+  }
+  /* line 118, ../../scss/pages/landing.scss */
+  .page-landing .landing-text .slider-text p {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,202 @@
+/* line 1, ../../scss/pages/homepage.scss */
+.page-homepage {
+  background: #e0e0e0;
+}
+/* line 4, ../../scss/pages/homepage.scss */
+.page-homepage #page > .container {
+  padding-top: 140px;
+  height: 1000px;
+}
+/* line 8, ../../scss/pages/homepage.scss */
+.page-homepage h1 {
+  width: 595px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.4;
+}
+/* line 14, ../../scss/pages/homepage.scss */
+.page-homepage .picture-container {
+  width: 214px;
+  height: 212px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  text-align: center;
+}
+/* line 22, ../../scss/pages/homepage.scss */
+.page-homepage .picture-container .swapping-images, .page-homepage .picture-container > .mask.grunge {
+  margin: 21px 22px;
+  height: 170px;
+  width: 170px;
+}
+/* line 28, ../../scss/pages/homepage.scss */
+.page-homepage .orange-container {
+  background: url("../../images/picture-frame-orange.png") no-repeat;
+}
+/* line 31, ../../scss/pages/homepage.scss */
+.page-homepage .green-container {
+  background: url("../../images/picture-frame-green.png") no-repeat;
+}
+/* line 34, ../../scss/pages/homepage.scss */
+.page-homepage .blue-container {
+  background: url("../../images/picture-frame-blue.png") no-repeat;
+}
+/* line 38, ../../scss/pages/homepage.scss */
+.page-homepage .text-container p {
+  font-family: 'open sans';
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  line-height: 1.5;
+  margin: 20px 0;
+}
+/* line 46, ../../scss/pages/homepage.scss */
+.page-homepage .text-container .text-orange, .page-homepage .text-container .text-green, .page-homepage .text-container .text-blue {
+  margin-right: 15px;
+  text-transform: uppercase;
+  font-family: 'open sans';
+  font-weight: 600;
+  font-size: 16px;
+}
+/* line 53, ../../scss/pages/homepage.scss */
+.page-homepage .text-container a {
+  display: block;
+}
+/* line 57, ../../scss/pages/homepage.scss */
+.page-homepage .text-container a:hover .text-green, .page-homepage .text-container a:hover .text-blue, .page-homepage .text-container a:hover .text-orange {
+  color: #000;
+}
+/* line 60, ../../scss/pages/homepage.scss */
+.page-homepage .text-container a:hover .btn-blue, .page-homepage .text-container a:hover .btn-green, .page-homepage .text-container a:hover .btn-orange {
+  color: #fff;
+}
+/* line 63, ../../scss/pages/homepage.scss */
+.page-homepage .text-container a:hover .btn-blue {
+  background: #3193cc;
+}
+/* line 66, ../../scss/pages/homepage.scss */
+.page-homepage .text-container a:hover .btn-green {
+  background: #80b339;
+}
+/* line 69, ../../scss/pages/homepage.scss */
+.page-homepage .text-container a:hover .btn-orange {
+  background: #d97d1a;
+}
+/* line 75, ../../scss/pages/homepage.scss */
+.page-homepage section {
+  position: absolute;
+  width: 554px;
+}
+/* line 79, ../../scss/pages/homepage.scss */
+.page-homepage section .text-container {
+  float: left;
+  width: 291px;
+}
+/* line 85, ../../scss/pages/homepage.scss */
+.page-homepage .section-orange {
+  right: 15%;
+  top: 315px;
+  z-index: 10;
+}
+/* line 90, ../../scss/pages/homepage.scss */
+.page-homepage .section-orange .picture-container {
+  float: left;
+}
+/* line 93, ../../scss/pages/homepage.scss */
+.page-homepage .section-orange .text-container {
+  margin: -25px 0 0 20px;
+}
+/* line 97, ../../scss/pages/homepage.scss */
+.page-homepage .section-green {
+  left: 1%;
+  top: 479px;
+  z-index: 9;
+}
+/* line 102, ../../scss/pages/homepage.scss */
+.page-homepage .section-green .picture-container {
+  float: right;
+}
+/* line 105, ../../scss/pages/homepage.scss */
+.page-homepage .section-green .text-container {
+  margin-top: -45px;
+}
+/* line 108, ../../scss/pages/homepage.scss */
+.page-homepage .section-green .text-container a.text-green {
+  margin-left: 122px;
+}
+/* line 111, ../../scss/pages/homepage.scss */
+.page-homepage .section-green .text-container a {
+  text-align: right;
+}
+/* line 116, ../../scss/pages/homepage.scss */
+.page-homepage .section-blue {
+  right: 7%;
+  top: 482px;
+}
+/* line 120, ../../scss/pages/homepage.scss */
+.page-homepage .section-blue .picture-container {
+  float: left;
+}
+/* line 123, ../../scss/pages/homepage.scss */
+.page-homepage .section-blue .text-container {
+  margin: 35px 0 0 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 133, ../../scss/pages/homepage.scss */
+  .page-homepage #page > .container {
+    height: auto;
+  }
+  /* line 136, ../../scss/pages/homepage.scss */
+  .page-homepage h1 {
+    width: 100%;
+    font-size: 30px;
+  }
+  /* line 140, ../../scss/pages/homepage.scss */
+  .page-homepage .section-orange, .page-homepage .section-blue, .page-homepage .section-green {
+    position: relative;
+    width: 100%;
+    right: 0;
+    top: 0;
+  }
+  /* line 146, ../../scss/pages/homepage.scss */
+  .page-homepage .section-orange .picture-container, .page-homepage .section-orange .text-container, .page-homepage .section-blue .picture-container, .page-homepage .section-blue .text-container, .page-homepage .section-green .picture-container, .page-homepage .section-green .text-container {
+    float: none !important;
+    display: block;
+  }
+  /* line 150, ../../scss/pages/homepage.scss */
+  .page-homepage .section-orange .text-container, .page-homepage .section-blue .text-container, .page-homepage .section-green .text-container {
+    margin-top: 30px;
+    text-align: center;
+    width: auto;
+  }
+  /* line 155, ../../scss/pages/homepage.scss */
+  .page-homepage .section-orange .text-container a.text-green, .page-homepage .section-blue .text-container a.text-green, .page-homepage .section-green .text-container a.text-green {
+    margin-left: 0;
+  }
+  /* line 158, ../../scss/pages/homepage.scss */
+  .page-homepage .section-orange .text-container a, .page-homepage .section-blue .text-container a, .page-homepage .section-green .text-container a {
+    text-align: center;
+  }
+  /* line 162, ../../scss/pages/homepage.scss */
+  .page-homepage .section-orange .picture-container, .page-homepage .section-blue .picture-container, .page-homepage .section-green .picture-container {
+    margin: 40px auto 0;
+    padding: 16px 0;
+  }
+  /* line 166, ../../scss/pages/homepage.scss */
+  .page-homepage .section-orange .picture-container .swapping-images, .page-homepage .section-blue .picture-container .swapping-images, .page-homepage .section-green .picture-container .swapping-images {
+    margin: 0 auto;
+    padding: 90px 0;
+  }
+  /* line 172, ../../scss/pages/homepage.scss */
+  .page-homepage .btn-green, .page-homepage .btn-orange, .page-homepage .btn-blue {
+    display: block;
+    margin: 23px auto 0;
+  }
+  /* line 176, ../../scss/pages/homepage.scss */
+  .page-homepage .section-orange .picture-container > .mask.grunge {
+    margin: 5px 23px !important;
+    height: 170px;
+    width: 170px;
+  }
+}

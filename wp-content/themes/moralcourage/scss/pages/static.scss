@@ -1,0 +1,59 @@
+.page-template-page-static-php {
+  background: #e0e0e0;
+
+  .section-text {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    line-height: 1.55;
+
+    h1, h2, h3 {
+        font-family: 'Open Sans Condensed';
+        margin: 40px 0 20px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+  }
+
+  .page-title {
+    margin: 40px auto 5px;
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    font-size: 30px;
+    color: #000;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+}
+@media only screen and (max-width: 480px) {
+    .page-template-page-static-php {
+        .page-title {
+          width: 90%;
+          font-size: 24px;
+        }
+        .section-text {
+            width: 100%;
+            margin: 20px 0;
+            padding: 20px;
+        }
+    }
+}

@@ -1,0 +1,150 @@
+/* line 1, ../../scss/pages/role-modeling.scss */
+.page-role-modeling {
+  background: #f29b3c;
+}
+/* line 4, ../../scss/pages/role-modeling.scss */
+.page-role-modeling .page-title {
+  width: 760px;
+  margin: 50px auto 35px;
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  font-size: 28px;
+  text-align: center;
+  color: #000;
+  line-height: 1.4;
+}
+/* line 15, ../../scss/pages/role-modeling.scss */
+.page-role-modeling .page-title span {
+  color: #fff;
+}
+/* line 19, ../../scss/pages/role-modeling.scss */
+.page-role-modeling .subtitle {
+  display: block;
+  margin-bottom: 45px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+}
+/* line 28, ../../scss/pages/role-modeling.scss */
+.page-role-modeling .video-thumbs-container {
+  position: relative;
+  float: right;
+  width: 210px;
+}
+/* line 33, ../../scss/pages/role-modeling.scss */
+.page-role-modeling .video-thumbs-container .moral-tv {
+  position: relative;
+  margin-bottom: 30px;
+  z-index: 3;
+}
+/* line 39, ../../scss/pages/role-modeling.scss */
+.page-role-modeling .shadow-div {
+  overflow: visible;
+  margin: 0;
+}
+/* line 42, ../../scss/pages/role-modeling.scss */
+.page-role-modeling .shadow-div:before, .page-role-modeling .shadow-div:after {
+  background: #F29B3C;
+  box-shadow: 0 0px 70px 45px #F29B3C;
+}
+/* line 48, ../../scss/pages/role-modeling.scss */
+.page-role-modeling .video-main {
+  float: left;
+  width: 75%;
+}
+/* line 52, ../../scss/pages/role-modeling.scss */
+.page-role-modeling .video-main .title {
+  float: left;
+  margin: 40px 0 40px 10px;
+  display: block;
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  font-size: 24px;
+}
+/* line 61, ../../scss/pages/role-modeling.scss */
+.page-role-modeling .video-main .range, .page-role-modeling .video-main .title {
+  width: 420px;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 70, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .page-title {
+    width: 100%;
+    margin: 30px 0 17px;
+    font-size: 23px;
+  }
+  /* line 75, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .subtitle {
+    margin-bottom: 18px;
+  }
+  /* line 78, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-main, .page-role-modeling .video-thumbs {
+    float: none;
+    width: 100%;
+  }
+  /* line 84, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-main .video-info {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 90, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-main .item.active .video-link {
+    width: 85%;
+    margin-right: 0;
+  }
+  /* line 94, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-main .item.active .video-tip {
+    margin-top: 12px;
+  }
+  /* line 97, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-main .item.active .title {
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+  /* line 102, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-main .item.active .left {
+    float: none !important;
+    text-align: center;
+  }
+  /* line 106, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-main .item.active .video-tip {
+    width: 100%;
+  }
+  /* line 109, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-main .item.active .range, .page-role-modeling .video-main .item.active .title {
+    width: auto;
+  }
+  /* line 112, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-main .item.active .range .fill .amount {
+    padding: 6px;
+    top: -46px;
+  }
+  /* line 119, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-thumbs-container {
+    clear: both;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 124, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-thumbs-container .moral-tv {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0;
+    z-index: 3;
+  }
+  /* line 130, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-thumbs-container .shadow-div {
+    margin: 0 auto;
+  }
+  /* line 133, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-thumbs-container .video-thumbs {
+    margin-top: 20px;
+    text-align: center;
+  }
+  /* line 137, ../../scss/pages/role-modeling.scss */
+  .page-role-modeling .video-thumbs-container .video-thumbs .item {
+    margin: 0 auto 18px;
+  }
+}

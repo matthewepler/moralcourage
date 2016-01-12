@@ -1,0 +1,123 @@
+.page-landing {
+    background: #e0e0e0;
+    .landing-text, .landing-picture {
+        float: right;
+    }
+    .landing-picture {
+        width: 608px;
+        margin-left: 17px;
+
+      .mask {
+        height: 608px;
+        width: 608px;
+      }
+    }
+    
+    .landing-text {
+        padding-top: 125px;
+        width: 560px;
+        h2 {
+            margin-bottom: 20px;
+        }
+        p {
+            display: block;
+            font-family: 'Open Sans Condensed';
+            font-weight: 300;
+            font-size: 34px;
+            line-height: 1.2;
+            color: #000;
+        }
+        .text-orange {
+            display: block;
+            margin-bottom: 80px;
+            margin-top: 50px;
+            font-family: 'Open Sans Condensed';
+            font-size: 41px;
+
+        }
+        .cta:first-child {
+            margin-bottom: 45px;
+        }
+        .bold.text-orange {
+            margin-bottom: 0;
+        }
+        .btn-round-orange {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: -15px;
+            margin-left: 10px;
+
+
+            .fa {
+                font-size: 48px;
+                line-height: 75px;
+            }
+        }
+        p {
+            width: 480px;
+            text-align: left;
+        }
+        .slider-text p {
+            display: block;
+            font-family: 'Open Sans Condensed';
+            font-weight: 300;
+            font-size: 34px;
+            line-height: 1.2;
+            color: #000;
+
+        }
+    }
+    .landing-picture {
+        padding-top: 75px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .page-landing {
+
+        .landing-text, .landing-picture {
+            float: none;
+            display: block;
+            width: 100%;
+        }
+        .landing-picture {
+          margin-left: 0;
+          padding-top: 0;
+
+          .mask.grunge {
+            width: 100%;
+            height: 420px;
+          }
+        }
+        .landing-text {
+            padding-top: 30px;
+            p, .cta {
+                width: 100%;
+            }
+            h2, .text-orange {
+                font-size: 24px;
+                display: block;
+            }
+            p {
+                font-size: 22px;
+            }
+            span {
+                margin-top: 30px;
+                &:first-child {
+                    margin-bottom: 50px;
+                }
+            }
+            .bold.text-orange {
+                float: none;
+            }
+            .btn-round-orange {
+                display: block;
+                float: none;
+                margin: 30px auto 0;
+            }
+            .slider-text p {
+                font-size: 22px;
+            }
+        }
+    }
+}

@@ -1,0 +1,287 @@
+/* line 1, ../../scss/pages/teaching.scss */
+.page-teaching {
+  background: #93c74a;
+}
+/* line 4, ../../scss/pages/teaching.scss */
+.page-teaching p.bold {
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  width: 965px;
+  margin: 55px auto 35px;
+  text-align: center;
+  line-height: 1.4;
+}
+/* line 14, ../../scss/pages/teaching.scss */
+.page-teaching h2 {
+  text-align: center;
+}
+/* line 17, ../../scss/pages/teaching.scss */
+.page-teaching .left-content {
+  float: left;
+}
+/* line 20, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .text-container {
+  float: left;
+  margin-left: 30px;
+}
+/* line 24, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .text-container a, .page-teaching .left-content .text-container span {
+  text-align: right;
+}
+/* line 27, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .text-container .fa {
+  right: -21px;
+}
+/* line 31, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .icon-container {
+  float: right;
+}
+/* line 35, ../../scss/pages/teaching.scss */
+.page-teaching .right-content {
+  float: right;
+}
+/* line 38, ../../scss/pages/teaching.scss */
+.page-teaching .right-content .text-container {
+  float: right;
+  margin-left: 30px;
+}
+/* line 42, ../../scss/pages/teaching.scss */
+.page-teaching .right-content .text-container a, .page-teaching .right-content .text-container span {
+  text-align: left;
+}
+/* line 45, ../../scss/pages/teaching.scss */
+.page-teaching .right-content .text-container .fa {
+  left: -22px;
+}
+/* line 49, ../../scss/pages/teaching.scss */
+.page-teaching .right-content .icon-container {
+  float: left;
+}
+/* line 53, ../../scss/pages/teaching.scss */
+.page-teaching .left-content, .page-teaching .right-content {
+  margin-top: 50px;
+  position: relative;
+  z-index: 98;
+}
+/* line 58, ../../scss/pages/teaching.scss */
+.page-teaching .left-content > .item, .page-teaching .right-content > .item {
+  margin-bottom: 55px;
+  width: 420px;
+}
+/* line 64, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .item:hover .text-container, .page-teaching .right-content .item:hover .text-container {
+  cursor: pointer;
+}
+/* line 68, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .item:hover .text-container a, .page-teaching .right-content .item:hover .text-container a {
+  color: #fff;
+}
+/* line 71, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .item:hover .text-container a .fa, .page-teaching .right-content .item:hover .text-container a .fa {
+  display: block;
+}
+/* line 76, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .text-container, .page-teaching .right-content .text-container {
+  width: 280px;
+}
+/* line 79, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .text-container a, .page-teaching .right-content .text-container a {
+  position: relative;
+  width: 250px;
+  display: block;
+  font-family: 'open sans condensed';
+  font-weight: 600;
+  font-size: 24px;
+}
+/* line 87, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .text-container a .fa, .page-teaching .right-content .text-container a .fa {
+  display: none;
+  position: absolute;
+  bottom: -30px;
+  color: #fff;
+  font-size: 36px;
+}
+/* line 95, ../../scss/pages/teaching.scss */
+.page-teaching .left-content .text-container span, .page-teaching .right-content .text-container span {
+  width: 255px;
+  display: inline-block;
+  margin-top: 25px;
+  font-family: 'open sans';
+  font-weight: 400;
+  color: #000;
+  font-size: 18px;
+  line-height: 1.2;
+}
+/* line 107, ../../scss/pages/teaching.scss */
+.page-teaching section {
+  position: relative;
+}
+/* line 110, ../../scss/pages/teaching.scss */
+.page-teaching section .background-center {
+  position: absolute;
+  width: 485px;
+  height: 485px;
+  left: 50%;
+  top: 50%;
+  margin-left: -242px;
+  margin-top: 40px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  background: #93c251;
+  z-index: 1;
+}
+/* line 124, ../../scss/pages/teaching.scss */
+.page-teaching section .round-text-container {
+  display: table;
+  position: relative;
+  width: 310px;
+  height: 310px;
+  margin: 16% auto;
+  padding: 0 15px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-align: center;
+  background: url("../../images/teaching-white-circle.png") no-repeat;
+}
+/* line 138, ../../scss/pages/teaching.scss */
+.page-teaching section .round-text-container span {
+  vertical-align: middle;
+  display: table-cell;
+  font-family: 'Open Sans Condensed';
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+}
+/* line 147, ../../scss/pages/teaching.scss */
+.page-teaching section .icon-container {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+/* line 154, ../../scss/pages/teaching.scss */
+.page-teaching section .swapping-images {
+  width: 110px;
+  height: 110px;
+}
+/* line 159, ../../scss/pages/teaching.scss */
+.page-teaching section .fourth-icon {
+  background: url("../../images/teaching-page/educator.png") no-repeat;
+}
+/* line 162, ../../scss/pages/teaching.scss */
+.page-teaching section .fifth-icon {
+  background: url("../../images/teaching-page/business-executive.png") no-repeat;
+}
+/* line 165, ../../scss/pages/teaching.scss */
+.page-teaching section .sixth-icon {
+  background: url("../../images/teaching-page/spiritual-lider.png") no-repeat;
+}
+/* line 168, ../../scss/pages/teaching.scss */
+.page-teaching section .item.first {
+  margin-left: 35px;
+}
+/* line 171, ../../scss/pages/teaching.scss */
+.page-teaching section .item.third {
+  margin-left: 20px;
+}
+/* line 174, ../../scss/pages/teaching.scss */
+.page-teaching section .item.second {
+  margin-left: -29px;
+}
+/* line 177, ../../scss/pages/teaching.scss */
+.page-teaching section .item.fourth {
+  margin-left: -60px;
+}
+/* line 180, ../../scss/pages/teaching.scss */
+.page-teaching section .item.fifth {
+  margin-right: -30px;
+}
+/* line 183, ../../scss/pages/teaching.scss */
+.page-teaching section .item.sixth {
+  margin-left: -53px;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 193, ../../scss/pages/teaching.scss */
+  .page-teaching section .round-text-container {
+    width: 305px;
+    height: 305px;
+  }
+  /* line 197, ../../scss/pages/teaching.scss */
+  .page-teaching section .background-center {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background: none;
+    width: 100%;
+  }
+  /* line 206, ../../scss/pages/teaching.scss */
+  .page-teaching .left-content, .page-teaching .right-content {
+    float: none;
+    width: 100%;
+  }
+  /* line 211, ../../scss/pages/teaching.scss */
+  .page-teaching p.bold {
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+  }
+  /* line 216, ../../scss/pages/teaching.scss */
+  .page-teaching h2 {
+    font-size: 30px;
+  }
+  /* line 220, ../../scss/pages/teaching.scss */
+  .page-teaching .left-content .icon-container, .page-teaching .left-content .text-container {
+    float: none;
+  }
+  /* line 226, ../../scss/pages/teaching.scss */
+  .page-teaching .right-content .icon-container, .page-teaching .right-content .text-container {
+    float: none;
+  }
+  /* line 232, ../../scss/pages/teaching.scss */
+  .page-teaching .left-content, .page-teaching .right-content {
+    margin-top: 25px;
+  }
+  /* line 235, ../../scss/pages/teaching.scss */
+  .page-teaching .left-content .item, .page-teaching .right-content .item {
+    width: 100%;
+    text-align: center;
+    margin-left: 0 !important;
+  }
+  /* line 241, ../../scss/pages/teaching.scss */
+  .page-teaching .left-content .item:hover .text-container a .fa, .page-teaching .right-content .item:hover .text-container a .fa {
+    display: none;
+  }
+  /* line 246, ../../scss/pages/teaching.scss */
+  .page-teaching .left-content .text-container, .page-teaching .right-content .text-container {
+    float: none;
+    margin: 0;
+    width: 100% !important;
+    text-align: center;
+  }
+  /* line 252, ../../scss/pages/teaching.scss */
+  .page-teaching .left-content .text-container a, .page-teaching .left-content .text-container span, .page-teaching .right-content .text-container a, .page-teaching .right-content .text-container span {
+    text-align: center;
+  }
+  /* line 256, ../../scss/pages/teaching.scss */
+  .page-teaching .left-content .text-container a, .page-teaching .right-content .text-container a {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  /* line 260, ../../scss/pages/teaching.scss */
+  .page-teaching .left-content .text-container span, .page-teaching .right-content .text-container span {
+    width: 80%;
+    margin-top: 0;
+  }
+  /* line 265, ../../scss/pages/teaching.scss */
+  .page-teaching .left-content .icon-container, .page-teaching .right-content .icon-container {
+    float: none;
+    margin: 0 auto 30px;
+  }
+}

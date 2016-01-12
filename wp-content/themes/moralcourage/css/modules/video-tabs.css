@@ -1,0 +1,158 @@
+/* line 4, ../../scss/modules/video-tabs.scss */
+.load-more {
+  display: none;
+}
+
+/* line 7, ../../scss/modules/video-tabs.scss */
+.video-thumbs {
+  position: relative;
+  overflow-y: scroll;
+  height: 410px;
+}
+/* line 12, ../../scss/modules/video-tabs.scss */
+.video-thumbs .item {
+  position: relative;
+  display: block;
+  width: 170px;
+  height: 96px;
+  margin-bottom: 18px;
+  margin-right: 15px;
+  overflow: hidden;
+}
+/* line 21, ../../scss/modules/video-tabs.scss */
+.video-thumbs .item img {
+  width: 100%;
+}
+/* line 24, ../../scss/modules/video-tabs.scss */
+.video-thumbs .item .title {
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.85);
+  opacity: 0;
+  text-align: left;
+  line-height: 1.5;
+  color: #000;
+  font-weight: normal;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+/* line 46, ../../scss/modules/video-tabs.scss */
+.video-thumbs .item:hover .title, .video-thumbs .item.active .title {
+  opacity: 1;
+}
+
+/* line 54, ../../scss/modules/video-tabs.scss */
+.shadow-div {
+  position: relative;
+  float: left !important;
+  width: 196px !important;
+  height: 420px !important;
+  margin-top: 45px;
+  margin-left: 75px;
+  overflow: hidden;
+}
+/* line 63, ../../scss/modules/video-tabs.scss */
+.shadow-div:before, .shadow-div:after {
+  content: "";
+  opacity: 0;
+  position: absolute;
+  height: 15px;
+  left: 0;
+  width: 100%;
+  background: #8DC63F;
+  z-index: 2;
+  -webkit-box-shadow: 0 0px 70px 45px #8DC63F;
+  -moz-box-shadow: 0 0px 70px 45px #8DC63F;
+  box-shadow: 0 0px 70px 45px #8DC63F;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+/* line 79, ../../scss/modules/video-tabs.scss */
+.shadow-div:after {
+  bottom: 0;
+}
+/* line 82, ../../scss/modules/video-tabs.scss */
+.shadow-div:before {
+  top: 0;
+}
+/* line 85, ../../scss/modules/video-tabs.scss */
+.shadow-div.scroll-top:after, .shadow-div.scroll-middle:after {
+  opacity: 1;
+}
+/* line 89, ../../scss/modules/video-tabs.scss */
+.shadow-div.scroll-bottom:before, .shadow-div.scroll-middle:before {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 97, ../../scss/modules/video-tabs.scss */
+  .shadow-div.loaded-more, .loaded-more .video-thumbs {
+    height: auto !important;
+  }
+
+  /* line 101, ../../scss/modules/video-tabs.scss */
+  .video-thumbs {
+    overflow: hidden;
+  }
+  /* line 103, ../../scss/modules/video-tabs.scss */
+  .video-thumbs .item {
+    margin-right: 0;
+  }
+
+  /* line 107, ../../scss/modules/video-tabs.scss */
+  .load-more {
+    position: relative;
+    color: #fff;
+    display: block;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    z-index: 3;
+  }
+
+  /* line 117, ../../scss/modules/video-tabs.scss */
+  .shadow-div.loaded-more:after, .shadow-div.loaded-more .shadow-div:before {
+    display: none;
+  }
+
+  /* line 120, ../../scss/modules/video-tabs.scss */
+  .video-main {
+    float: none;
+    width: 100%;
+  }
+  /* line 124, ../../scss/modules/video-tabs.scss */
+  .video-main .item .left {
+    float: none;
+    text-align: center;
+  }
+  /* line 128, ../../scss/modules/video-tabs.scss */
+  .video-main .video-link {
+    width: 100%;
+    max-width: 306px !important;
+    height: 306px !important;
+    margin-right: 0 !important;
+  }
+  /* line 135, ../../scss/modules/video-tabs.scss */
+  .video-main .video-tip {
+    margin: 13px 0;
+    width: 100% !important;
+  }
+
+  /* line 141, ../../scss/modules/video-tabs.scss */
+  .shadow-div {
+    float: none !important;
+    margin: 40px auto 0;
+    width: 170px !important;
+  }
+}

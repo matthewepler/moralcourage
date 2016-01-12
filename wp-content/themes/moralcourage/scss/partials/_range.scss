@@ -1,0 +1,61 @@
+.disabled .range .fill, .disabled.range .fill {
+    width: 0 !important;
+}
+.range {
+    position: relative;
+    background: #D98445;
+    height: 5px;
+    font-family: 'open sans';
+
+    margin: 40px 18px 18px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 0 0 0 12px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0 0 0 12px rgba(255,255,255,0.5);
+    box-shadow: 0 0 0 12px rgba(255,255,255,0.5);
+
+    .fill {
+        position: absolute;
+        top: 0; 
+        left: 0;
+        height: 100%;
+        width: auto;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        background: #fff;
+        -webkit-transition: width 3s;
+        -moz-transition: width 3s;
+        transition: width 3s;
+        
+        .amount {
+            position: absolute;
+            top: -35px;
+            left: 100%;
+            width: 100px;
+            
+            margin-left: -50px;
+            padding: 10px;
+            border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-border-radius: 4px;
+            color: #D98445;
+            font-size: 11px;
+            background: #fff;
+
+            &:after {
+                content: '';
+                position: absolute;
+                display: block;
+                top: 100%;
+                left: 50%;
+                border: solid 4px transparent;
+                border-top: solid 4px #fff;
+                margin-left: -2px;
+                
+            }
+        }
+    }
+}

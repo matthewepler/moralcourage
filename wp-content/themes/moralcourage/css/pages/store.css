@@ -1,0 +1,148 @@
+/* line 1, ../../scss/pages/store.scss */
+.page-store {
+  background: #ef4135;
+}
+/* line 4, ../../scss/pages/store.scss */
+.page-store aside {
+  float: left;
+  width: 38%;
+  margin-top: 55px;
+  padding-left: 70px;
+}
+/* line 10, ../../scss/pages/store.scss */
+.page-store aside p {
+  margin-bottom: 35px;
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  color: #000;
+  line-height: 1.4;
+  font-size: 21px;
+}
+/* line 18, ../../scss/pages/store.scss */
+.page-store aside p span {
+  color: #fff;
+}
+/* line 24, ../../scss/pages/store.scss */
+.page-store section {
+  margin-top: 55px;
+  float: right;
+  width: 60%;
+}
+/* line 29, ../../scss/pages/store.scss */
+.page-store section ul {
+  list-style: none;
+  text-align: right;
+}
+/* line 33, ../../scss/pages/store.scss */
+.page-store section ul .list-item {
+  position: relative;
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+  vertical-align: top;
+}
+/* line 41, ../../scss/pages/store.scss */
+.page-store section ul .list-item span {
+  width: 165px;
+  display: block;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  margin: 30px auto;
+  text-align: center;
+  line-height: 1.4;
+}
+/* line 52, ../../scss/pages/store.scss */
+.page-store section ul .list-item img {
+  vertical-align: middle;
+}
+/* line 58, ../../scss/pages/store.scss */
+.page-store .list-item a {
+  display: block;
+  width: 190px;
+  height: 190px;
+  text-align: center;
+  line-height: 186px;
+}
+/* line 65, ../../scss/pages/store.scss */
+.page-store .list-item a .mask {
+  width: 190px;
+  height: 190px;
+}
+/* line 70, ../../scss/pages/store.scss */
+.page-store .page-title {
+  font-family: 'Open Sans Condensed';
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 30px;
+}
+/* line 78, ../../scss/pages/store.scss */
+.page-store .product-pic-container {
+  width: 330px;
+  height: 330px;
+  background: #fff;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 90, ../../scss/pages/store.scss */
+  .page-store aside, .page-store section {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
+  /* line 95, ../../scss/pages/store.scss */
+  .page-store .page-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  /* line 100, ../../scss/pages/store.scss */
+  .page-store aside p {
+    margin-bottom: 15px;
+  }
+  /* line 104, ../../scss/pages/store.scss */
+  .page-store .product-pic-container {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+  }
+  /* line 108, ../../scss/pages/store.scss */
+  .page-store .product-pic-container img {
+    margin-bottom: -2px;
+  }
+  /* line 112, ../../scss/pages/store.scss */
+  .page-store section {
+    margin-top: 100px;
+  }
+  /* line 115, ../../scss/pages/store.scss */
+  .page-store section ul {
+    text-align: center;
+  }
+  /* line 118, ../../scss/pages/store.scss */
+  .page-store section ul .list-item {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 40px;
+  }
+  /* line 123, ../../scss/pages/store.scss */
+  .page-store section ul .list-item a {
+    width: auto;
+  }
+  /* line 126, ../../scss/pages/store.scss */
+  .page-store section ul .list-item > span {
+    margin: 0 auto;
+  }
+  /* line 129, ../../scss/pages/store.scss */
+  .page-store section ul .list-item .mask {
+    width: 170px;
+    height: 170px;
+  }
+}

@@ -1,0 +1,18 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteRule young-people(.*)$ teaching/teaching-details/#a-young-person  [NE,L,R=301]
+RewriteRule educators(.*)$ teaching/teaching-details/#an-educator [NE,L,R=301]
+RewriteRule spiritual-leaders(.*)$ teaching/teaching-details/#a-spiritual-leader [NE,L,R=301]
+RewriteRule business(.*)$ teaching/teaching-details/#a-business-executive [NE,L,R=301]
+RewriteRule public-service(.*)$ teaching/teaching-details/#a-student-of-public-service [NE,L,R=301]
+RewriteRule events(.*)$ teaching/teaching-details/#an-event-organizer [NE,L,R=301]
+
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+# END WordPress
