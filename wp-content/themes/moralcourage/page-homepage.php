@@ -10,7 +10,7 @@
         <h1><?php print_content($content['alternative-page-title']); ?></h1>
         <section class="section-orange">
             <div class="picture-container orange-container">
-                <?php $imageData = the_daily_images('landing-page');?>
+		<?php the_images('role-modeling-images');?>
             </div>
             <div class="text-container">
                 <h3 class="bold text-orange"><?php print_content($content['top-right-title']); ?></h3>
