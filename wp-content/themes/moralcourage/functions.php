@@ -432,7 +432,7 @@ function main_video_html($videoData) {
     <div class="item clearfix" id="video-<?php echo $videoData['videoId']; ?>">
 		<h2 class="title"><?php echo $videoData['title']; ?></h2>
         <section class="left">
-            <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox">
+            <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox" style="overflow:inherit">
                 <div class="svgMask">
                     <svg width="100%" height="100%" baseProfile="full" version="1.2">
                         <!-- removed by m.epler 1/13/2016
@@ -520,7 +520,7 @@ function role_modeling_main_video_html($videoData) {
 	<div class="item clearfix" id="video-<?php echo $videoData['videoId']; ?>">
 
 		<section class="left">
-			<a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox">
+			<a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox" style="overflow:inherit">
 				<div class="svgMask">
 					<svg width="100%" height="100%" baseProfile="full" version="1.2">
 						<!-- removed by m.epler 1/13/2016
@@ -559,7 +559,7 @@ function about_video_html($videoData) {
 	?>
 	<div class="video-player video-main">
 
-        <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox">
+        <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox" style="overflow:inherit" style="overflow:inherit">
 			<div class="svgMask">
 				<svg width="100%" height="100%" baseProfile="full" version="1.2">
 					<!-- removed by m.epler 1/13/2016
@@ -586,7 +586,7 @@ function founder_video_html($videoData) {
     ?>
     <div class="video-player video-main">
 
-        <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox">
+        <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox" style="overflow:inherit" style="overflow:inherit">
             <div class="svgMask">
                 <svg width="100%" height="100%" baseProfile="full" version="1.2">
                     <!-- removed by m.epler 1/13/2016

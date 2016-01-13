@@ -38,7 +38,7 @@
                     <?php endif;?>
                 </div>
             </section>
-            <div class="btn-container">
+            <div class="btn-container" style="text-align:left;font-size:125%;line-height:1.25">
                 <?php print_content($content['td-layout-1']['mid-region']);?>
             </div>
             <section class="testimonials">
