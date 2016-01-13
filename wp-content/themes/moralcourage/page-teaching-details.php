@@ -24,7 +24,8 @@
             <aside class="tab-navigation">
             <!-- edited by m.epler 1/13/2016. Removed h2 and added image -->
 			<!-- <h2 class="page-title">Are you...</h2> -->
-               <div><img src="http://localhost/wp-content/themes/moralcourage/images/applied_courage.png" style="width:90%;padding-left:30%"></div>
+			<!-- NOTE: change 'moralcourage.org' to 'localhost' to run locally -->
+               <div><img src="http://moralcourage.org/wp-content/themes/moralcourage/images/applied_courage.png" style="width:90%;padding-left:30%"></div>
                 <div class="tabs">
                     <?php foreach ($pages as $page):
                         $count = 0;
