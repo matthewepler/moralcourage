@@ -398,12 +398,17 @@ function default_video_html($videoData) {
 	 <a class="video-link mask grunge lightbox" rel="lightbox" href="<?php echo the_permalink();?>">
         <div class="svgMask">
             <svg width="100%" height="100%" baseProfile="full" version="1.2">
-                <defs>
-                    <mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
+               <!-- removed by m.epler 1/13/2016
+               <defs>
+                    <mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)"> 
                         <image width="100%" height="100%" xlink:href="<?php echo get_stylesheet_directory_uri();?>/images/grunge-mask-alt.png"/>
                     </mask>
                 </defs>
+                 -->
+                <!-- removed by m.epler 1/13/2016 replaced with following image tag (no mask attr)
                 <image mask="url(#svgmask<?php echo $maskId;?>)" width="180%" height="100%" y="0" x="0" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
+                -->
+                <image width="180%" height="100%" y="0" x="0" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
             </svg>
         </div>
         <span><?php echo $videoData['views']['count']; ?></span>
@@ -430,12 +435,17 @@ function main_video_html($videoData) {
             <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox">
                 <div class="svgMask">
                     <svg width="100%" height="100%" baseProfile="full" version="1.2">
+                        <!-- removed by m.epler 1/13/2016
                         <defs>
                             <mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
                                 <image width="100%" height="100%" xlink:href="<?php echo get_stylesheet_directory_uri();?>/images/grunge-mask-alt.png"/>
                             </mask>
                         </defs>
+                        -->
+                        <!-- removed by m.epler 1/13/2016 replaced with following image tag (no mask)
                         <image mask="url(#svgmask<?php echo $maskId;?>)" width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
+                        -->
+                        <image width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
                     </svg>
                 </div>
                 <div class="play-button"></div>
@@ -513,12 +523,17 @@ function role_modeling_main_video_html($videoData) {
 			<a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox">
 				<div class="svgMask">
 					<svg width="100%" height="100%" baseProfile="full" version="1.2">
+						<!-- removed by m.epler 1/13/2016
 						<defs>
 							<mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
 								<image width="100%" height="100%" xlink:href="<?php echo get_stylesheet_directory_uri();?>/images/grunge-mask-alt.png"/>
 							</mask>
 						</defs>
+						-->
+						<!-- removed by m.epler 1/13/2016 replaced with following image tag (no mask)
 						<image mask="url(#svgmask<?php echo $maskId;?>)" width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
+						-->
+						<image width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
 					</svg>
 				</div>
 				<div class="play-button"></div>
@@ -547,12 +562,17 @@ function about_video_html($videoData) {
         <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox">
 			<div class="svgMask">
 				<svg width="100%" height="100%" baseProfile="full" version="1.2">
+					<!-- removed by m.epler 1/13/2016
 					<defs>
 						<mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
 							<image width="100%" height="100%" xlink:href="<?php echo get_stylesheet_directory_uri();?>/images/grunge-mask-alt.png"/>
 						</mask>
-					</defs>
+					</defs> 
+					-->
+					<!-- removed by m.epler 1/13/2016 replaced with following image tag (no mask)
 					<image mask="url(#svgmask<?php echo $maskId;?>)" width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
+					-->
+					<image width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
 				</svg>
 			</div>
 			<div class="play-button"></div>
@@ -569,12 +589,17 @@ function founder_video_html($videoData) {
         <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox">
             <div class="svgMask">
                 <svg width="100%" height="100%" baseProfile="full" version="1.2">
+                    <!-- removed by m.epler 1/13/2016
                     <defs>
                         <mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
                             <image width="100%" height="100%" xlink:href="<?php echo get_stylesheet_directory_uri();?>/images/grunge-mask-alt.png"/>
                         </mask>
                     </defs>
+                    -->
+                    <!-- removed by m.epler 1/13/2016 replaced with following image tag (no mask)
                     <image mask="url(#svgmask<?php echo $maskId;?>)" width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
+                    -->
+                    <image width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
                 </svg>
             </div>
             <div class="play-button"></div>
