@@ -48,10 +48,13 @@
     </div>
     <header id="header" class="header">
         <div class="container clearfix">
+
+        		<a href="<?php echo get_site_url();?>/homepage"><img src="http://moralcourage.org/wp-content/themes/moralcourage/images/mc_logo_rect.png" style="width:15%"></a>
+            <!--
             <div class="logo-container">
                 <a class="logo" href="<?php echo get_site_url();?>/homepage"><span class="icon-logo"></span></a>
             </div>
-
+			-->
             <nav id="navMenu" class="nav-menu">
 
                 <a class="menu-mobile" href="">Menu <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>
