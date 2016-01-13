@@ -49,7 +49,7 @@
     <header id="header" class="header">
         <div class="container clearfix">
 
-        		<a href="<?php echo get_site_url();?>/homepage"><img src="http://moralcourage.org/wp-content/themes/moralcourage/images/mc_logo_rect.png" style="width:15%"></a>
+        		<a href="<?php echo get_site_url();?>/homepage"><img src="http://moralcourage.org/wp-content/themes/moralcourage/images/mc_logo_rect.png" style="width:15%;padding-top:10px;"></a>
             <!--
             <div class="logo-container">
                 <a class="logo" href="<?php echo get_site_url();?>/homepage"><span class="icon-logo"></span></a>
