@@ -83,10 +83,10 @@ define('WP_DEBUG', false);
 /* That's all, stop editing! Happy blogging. */
 
 /* for local development only - TURN OFF WHEN GOING LIVE */
-if ($_SERVER["HTTP_HOST"] === 'localhost') {
-  define('WP_HOME','http://localhost');
-  define('WP_SITEURL','http://localhost');
-}
+//if ($_SERVER["HTTP_HOST"] === 'localhost') {
+//  define('WP_HOME','http://localhost');
+//  define('WP_SITEURL','http://localhost');
+//}
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
