@@ -15,7 +15,7 @@
         <article class="tab-layout tab4">
 
             <h2><?php print_content($content['alternative-page-title']); ?></h2>
-             <div class="btn-container">
+             <div class="btn-container" style="font-family:'open sans';font-weight:400;font-size:18px;line-height:1.4;color:#000">
                 <?php print_content($content[$tdLayoutId]['mid-region']);?>
             </div>
             <section class="section-video video-tabs clearfix">
