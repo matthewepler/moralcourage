@@ -397,7 +397,7 @@ function default_video_html($videoData) {
 	?>
 	 <a class="video-link mask grunge lightbox" rel="lightbox" href="<?php echo the_permalink();?>">
         <div class="svgMask">
-            <svg width="100%" height="100%" baseProfile="full" version="1.2">
+            <svg width="100%" height="100%" baseProfile="full" version="1.2" style="border: 2px solid darkslategray">
                <!-- removed by m.epler 1/13/2016
                <defs>
                     <mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)"> 
@@ -434,7 +434,7 @@ function main_video_html($videoData) {
         <section class="left">
             <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox" style="overflow:inherit">
                 <div class="svgMask">
-                    <svg width="100%" height="100%" baseProfile="full" version="1.2">
+                    <svg width="100%" height="100%" baseProfile="full" version="1.2" style="border: 1px solid black">
                         <!-- removed by m.epler 1/13/2016
                         <defs>
                             <mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
@@ -522,7 +522,7 @@ function role_modeling_main_video_html($videoData) {
 		<section class="left">
 			<a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox" style="overflow:inherit">
 				<div class="svgMask">
-					<svg width="100%" height="100%" baseProfile="full" version="1.2">
+					<svg width="100%" height="100%" baseProfile="full" version="1.2" style="border: 1px solid black">
 						<!-- removed by m.epler 1/13/2016
 						<defs>
 							<mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
@@ -561,7 +561,7 @@ function about_video_html($videoData) {
 
         <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox" style="overflow:inherit" style="overflow:inherit">
 			<div class="svgMask">
-				<svg width="100%" height="100%" baseProfile="full" version="1.2">
+				<svg width="100%" height="100%" baseProfile="full" version="1.2" style="border: 1px solid black">
 					<!-- removed by m.epler 1/13/2016
 					<defs>
 						<mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
@@ -588,7 +588,7 @@ function founder_video_html($videoData) {
 
         <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox" style="overflow:inherit" style="overflow:inherit">
             <div class="svgMask">
-                <svg width="100%" height="100%" baseProfile="full" version="1.2">
+                <svg width="100%" height="100%" baseProfile="full" version="1.2" style="border: 1px solid black">
                     <!-- removed by m.epler 1/13/2016
                     <defs>
                         <mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">

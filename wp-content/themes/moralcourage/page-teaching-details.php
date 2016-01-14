@@ -21,7 +21,7 @@
     </script>
 
     <section class="container clearfix">
-            <aside class="tab-navigation">
+            <aside class="tab-navigation" style="margin-top:-50px">
             <!-- edited by m.epler 1/13/2016. Removed h2 and added image -->
 			<!-- <h2 class="page-title">Are you...</h2> -->
 			<!-- NOTE: change 'moralcourage.org' to 'localhost' to run locally -->
