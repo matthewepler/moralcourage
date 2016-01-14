@@ -24,9 +24,10 @@
                 </article>
             </section>
            
-            <p class="paragraph-container">
+            <p class="paragraph-container" style="margin-top:-50px">
                 <?php print_content($content[$tdLayoutId]['mid-paragraph']);?>
             </p>
+            <a href="http://moralcourage.org/teaching/teaching-details/#our-services" class="contact-btn" style="margin-left:30%">Discover our services for you</a>
             <section class="testimonials">
                 <?php
 
