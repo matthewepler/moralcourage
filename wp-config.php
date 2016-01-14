@@ -86,6 +86,9 @@ define('WP_DEBUG', false);
 if ($_SERVER["HTTP_HOST"] === 'localhost') {
   define('WP_HOME','http://localhost');
   define('WP_SITEURL','http://localhost');
+} else if ($_SERVER["HTTP_HOST"] === 'mouralcourage.org') {
+  define('WP_HOME', 'http://moralcourage.org');
+  define('WP_SITEURL', 'http://mouralcourage.org');
 }
 
 /** Absolute path to the WordPress directory. */
