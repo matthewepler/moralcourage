@@ -69,6 +69,7 @@
 }
 /* line 61, ../../scss/pages/about.scss */
 .page-why .section-video {
+  padding-top: 26px;
   width: 36%;
   margin-left: 46px;
   text-align: right;
@@ -112,6 +113,7 @@
   .page-why .section-video {
     margin-left: 0;
     margin-top: 30px;
+    padding-top: 0;
   }
   /* line 106, ../../scss/pages/about.scss */
   .page-why .section-video img {
