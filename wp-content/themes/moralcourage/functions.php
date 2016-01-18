@@ -44,15 +44,15 @@ function get_custom_content($postId, $slugs = '') {
 function the_page_color($postId) {
     $common_content = get_custom_content($postId);
     if (isset($common_content['page-color'])) {
-        $color = $common_content['page-color'];    
+        $color = $common_content['page-color'];
     } else {
         $color = '';
     }
-    
+
     if (strlen($color) > 0) {
         page_color_override($color);
     }
-    
+
     return $color;
 }
 function page_color_override($color) {
@@ -66,7 +66,7 @@ function page_color_override($color) {
     }
     .nav-menu .menu-item a:before {
         background: <?php echo $color;?> !important;
-    
+
     }
     .page {
         background: <?php echo $color;?> !important;
@@ -205,7 +205,7 @@ function the_videos($videoCategorySlug = '', $videoHtml = 'default_video') {
 		'youtube_video' => $videoCategorySlug,
         'posts_per_page' => -1
 	);
-    
+
 
 	$VIDEO_HTML = array(
 		'default_video' => 'default_video_html',
@@ -400,7 +400,7 @@ function default_video_html($videoData) {
             <svg width="100%" height="100%" baseProfile="full" version="1.2" style="border: 2px solid darkslategray">
                <!-- removed by m.epler 1/13/2016
                <defs>
-                    <mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)"> 
+                    <mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
                         <image width="100%" height="100%" xlink:href="<?php echo get_stylesheet_directory_uri();?>/images/grunge-mask-alt.png"/>
                     </mask>
                 </defs>
@@ -567,7 +567,7 @@ function about_video_html($videoData) {
 						<mask id="svgmask<?php echo $maskId;?>" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" transform="scale(1)">
 							<image width="100%" height="100%" xlink:href="<?php echo get_stylesheet_directory_uri();?>/images/grunge-mask-alt.png"/>
 						</mask>
-					</defs> 
+					</defs>
 					-->
 					<!-- removed by m.epler 1/13/2016 replaced with following image tag (no mask)
 					<image mask="url(#svgmask<?php echo $maskId;?>)" width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
@@ -599,7 +599,7 @@ function founder_video_html($videoData) {
                     <!-- removed by m.epler 1/13/2016 replaced with following image tag (no mask)
                     <image mask="url(#svgmask<?php echo $maskId;?>)" width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
                     -->
-                    <image width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
+                    <image width="180%" height="180%" y="-150" x="-110" xlink:href="<?php echo $videoData['thumbnail']; ?>"/>
                 </svg>
             </div>
             <div class="play-button"></div>
