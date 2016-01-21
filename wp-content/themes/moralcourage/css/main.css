@@ -1114,6 +1114,14 @@ form.invalid .wpcf7-not-valid {
   height: 370px;
   margin-right: 45px;
 }
+
+@media only screen and (max-width: 480px) {
+  .video-main .video-link {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
 /* line 16, ../scss/partials/_videos.scss */
 .video-main .video-tip {
   font-family: 'Open Sans';
