@@ -1473,11 +1473,14 @@ textarea {
 
 /* line 104, ../scss/main.scss */
 .container {
-  position: relative;
   width: 1185px !important;
-  height: 100%;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.header .container {
+  position: relative;
+  height: 100%;
 }
 
 .header--logo {
