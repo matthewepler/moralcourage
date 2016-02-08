@@ -460,8 +460,8 @@ function video_info_html($videoData) {
 ?>
 	<section class="video-info">
 
-		<?php view_range_html($videoData); ?>
-		<span class="video-subtitle">Help this story reach 100,000 people</span>
+		<?php // view_range_html($videoData); ?>
+		<!-- <span class="video-subtitle">Help this story reach 100,000 people</span> -->
 		<span class="social-btn btn-facebook">
 			<i class="fa fa-facebook"></i>
 			Share
