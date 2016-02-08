@@ -481,6 +481,7 @@ function video_info_html($videoData) {
 			Subscribe on YouTube
 		</a>
 
+        <img class="video--awards" src="<?php echo get_stylesheet_directory_uri(); ?>/images/laurels.png">
 
 	</section>
 <?php
