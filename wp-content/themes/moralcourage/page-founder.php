@@ -14,7 +14,7 @@
             <?php print_content($content['main-region']); ?>
         </section>
         <section class="section-video">
-            
+
             <?php the_videos('founder-videos', 'founder_video'); ?>
         </section>
         <div class="external-links">
@@ -40,7 +40,7 @@
 
         </div>
     </div>
-    
+
 <?php
-survey_include();
+// survey_include();
 get_footer();

@@ -14,7 +14,7 @@
                 <?php the_masked_image($content['contact-custom-content']['form-image']); ?>
 
                 <h4><?php print_content($content['contact-custom-content']['form-entry-paragraph']); ?></h4>
-                
+
                 <?php the_content(); ?>
             </article>
             <aside>
@@ -31,5 +31,5 @@
         ?>
     </div>
 <?php
-    survey_include();
+    // survey_include();
     get_footer();
