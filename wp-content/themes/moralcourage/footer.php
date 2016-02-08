@@ -5,11 +5,11 @@
                     <a target="_blank" href="https://www.facebook.com/MoralCourage"><i class="fa fa-facebook"></i></a>
                     <a target="_blank" href="https://twitter.com/MoralCourage"><i class="fa fa-twitter"></i></a>
                 </div>
-                <p class="copy">&copy; Moral Courage Project 2014. All Rights Reserved. Moral Courage, the <span class="icon-logo"></span> logo, and the Moral Courage logo are trademarks and service marks owned by Moral Courage LLC. Any unauthorized use of these names, or variations of these names, is a violation of state, federal, and international trademark laws.</p>
+                <p class="copy">&copy; Moral Courage Project <?php echo current_time('Y') ?>. All Rights Reserved. Moral Courage, the <span class="icon-logo"></span> logo, and the Moral Courage logo are trademarks and service marks owned by Moral Courage LLC. Any unauthorized use of these names, or variations of these names, is a violation of state, federal, and international trademark laws.</p>
                 <nav id="footerNav" class="footer-nav">
-                    
+
                     <?php wp_nav_menu(array('theme_location' => 'footer-menu')); ?>
-                    
+
                 </nav>
             </div>
         </footer>
@@ -23,7 +23,7 @@
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/modules/swapping-images.js"></script>
         <?php wp_footer(); ?>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/main.js"></script>
-        
+
         <!-- Google Analytics -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
