@@ -533,7 +533,10 @@ a:hover {
 /* line 1, ../scss/partials/_navigation.scss */
 .nav-menu {
   float: right;
-  margin-top: 40px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
 }
 /* line 5, ../scss/partials/_navigation.scss */
 .nav-menu h1 {
@@ -1460,9 +1463,18 @@ textarea {
 
 /* line 104, ../scss/main.scss */
 .container {
+  position: relative;
   width: 1185px !important;
+  height: 100%;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.header--logo {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* line 109, ../scss/main.scss */

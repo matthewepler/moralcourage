@@ -37,7 +37,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <?php the_page_color(get_the_ID()); ?>
-    
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -49,12 +49,9 @@
     <header id="header" class="header">
         <div class="container clearfix">
 
-    		<a href="<?php echo get_site_url();?>/homepage"><img src="http://moralcourage.org/wp-content/themes/moralcourage/images/mc_logo_rect2.png" style="margin-left:2%;margin-top:1%"></a>
-            <!--
-            <div class="logo-container">
-                <a class="logo" href="<?php echo get_site_url();?>/homepage"><span class="icon-logo"></span></a>
-            </div>
-			-->
+    		<a class="header--logo" href="<?php echo get_site_url();?>/homepage">
+                <img src="http://moralcourage.org/wp-content/themes/moralcourage/images/mc_logo_rect2.png">
+            </a>
             <nav id="navMenu" class="nav-menu">
 
                 <a class="menu-mobile" href="">Menu <i class="fa fa-chevron-down"></i><i class="fa fa-chevron-up"></i></a>

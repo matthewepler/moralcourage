@@ -25,7 +25,7 @@ define('DB_USER', 'moralc_user');
 define('DB_PASSWORD', '(lx?Mh8zUPd]');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
++define('DB_HOST', '127.0.0.1');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -84,8 +84,8 @@ define('WP_DEBUG', false);
 
 /* for local development only - TURN OFF WHEN GOING LIVE */
 if ($_SERVER["HTTP_HOST"] === 'localhost') {
-  define('WP_HOME','http://localhost');
-  define('WP_SITEURL','http://localhost');
+  define('WP_HOME','http://localhost/~Gene/moralcourage');
+  define('WP_SITEURL','http://localhost/~Gene/moralcourage');
 } else if ($_SERVER["HTTP_HOST"] === 'moralcourage.org') {
   define('WP_HOME', 'http://moralcourage.org');
   define('WP_SITEURL', 'moralcourage.org');
