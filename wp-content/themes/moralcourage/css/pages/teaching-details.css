@@ -71,6 +71,17 @@
   margin-bottom: 45px;
   margin-left: -35px;
 }
+
+@media only screen and (max-width: 480px) {
+  .page-teaching-details .testimonials h3 { margin-left: 0; }
+}
+
+#tab-our-vision article.tab4 {
+  text-align: center;
+}
+
+#tab-our-vision article.tab4 .section-video .contact-btn { display: inline; }
+
 /* line 60, ../../scss/pages/teaching-details.scss */
 .page-teaching-details .testimonials .testimonial-box {
   position: relative;
