@@ -82,6 +82,12 @@
 
 #tab-our-vision article.tab4 .section-video .contact-btn { display: inline; }
 
+#tab-our-story article .btn-container,
+#tab-our-vision article .btn-container,
+#tab-our-services article .btn-container {
+  padding: 0 1em;
+}
+
 /* line 60, ../../scss/pages/teaching-details.scss */
 .page-teaching-details .testimonials .testimonial-box {
   position: relative;
