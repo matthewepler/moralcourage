@@ -561,11 +561,7 @@ function about_video_html($videoData) {
 	<div class="video-player video-main">
 
         <a data-fancybox-type="ajax" href="<?php echo $videoData['permalink'];?>" class="video-link mask grunge fancybox" style="overflow:inherit" style="overflow:inherit">
-			<div class="svgMask" style="background-image: url(<?php echo $videoData['thumbnail']; ?>);">
-				<svg width="100%" height="100%" baseProfile="full" version="1.2">
-                    <!-- <image width="180%" height="180%" y="-150" x="-90" xlink:href="<?php echo $videoData['thumbnail']; ?>"/> -->
-				</svg>
-			</div>
+			<div class="svgMask" style="background-image: url(<?php echo $videoData['thumbnail']; ?>);"></div>
 			<div class="play-button"></div>
 		</a>
     </div>
