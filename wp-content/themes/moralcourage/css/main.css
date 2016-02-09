@@ -537,6 +537,7 @@ a:hover {
   top: 50%;
   right: 0;
   transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
 }
 /* line 5, ../scss/partials/_navigation.scss */
 .nav-menu h1 {
@@ -1490,6 +1491,7 @@ textarea {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
 }
 
 /* line 109, ../scss/main.scss */
