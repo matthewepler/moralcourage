@@ -79,7 +79,7 @@ section.left .mask.grunge .svgMask {
 }
 
 @media only screen and (max-width: 480px) {
-  .svgMask {
+  section.left .mask.grunge .svgMask {
     background-size: auto 100%;
   }
 }
