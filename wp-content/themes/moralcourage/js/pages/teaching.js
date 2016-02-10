@@ -20,7 +20,7 @@ MORAL.Teaching = (function() {
             if (!this.$tabNavigation.length) {
                 return;
             }
-            
+
             tabContentHeight    = $('.active .tab-content').height();
             tabNavigationHeight = this.$tabNavigation.find('.tabs').height();
             maxHeight = tabContentHeight > tabNavigationHeight ? tabContentHeight : tabNavigationHeight;
@@ -43,7 +43,7 @@ MORAL.Teaching = (function() {
                 .on('click', '.tabs .tab .tab-header', function(event) {
                     var slug;
                     event.preventDefault();
-                    
+
                     self.activeTab = $(this).parents('.tab');
                     slug           = self.activeTab.data('slug');
 
@@ -54,11 +54,17 @@ MORAL.Teaching = (function() {
                         .addClass('active');
 
                     self.activateTab(slug);
-                    
+
                     if ($(window).width() <= 480) {
                         $('body, html').scrollTop($(this).offset().top - 110);
                     }
-                    
+
+                }).on('click', '#tab-our-story .contact-btn', function(event) {
+                    event.preventDefault();
+                    window.location.href = '/teaching/teaching-details/#our-vision';
+                }).on('click', '#tab-our-vision .contact-btn', function(event) {
+                    event.preventDefault();
+                    window.location.href = '/teaching/teaching-details/#our-services';
                 });
 
         },
