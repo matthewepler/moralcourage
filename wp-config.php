@@ -89,6 +89,9 @@ if ($_SERVER["HTTP_HOST"] === 'localhost') {
 } else if ($_SERVER["HTTP_HOST"] === 'moralcourage.org') {
   define('WP_HOME', 'http://moralcourage.org');
   define('WP_SITEURL', 'http://moralcourage.org');
+} else if ($_SERVER["HTTP_HOST"] === 'moralcourage.com') {
+  define('WP_HOME', 'http://moralcourage.com');
+  define('WP_SITEURL', 'http://moralcourage.com');
 }
 
 /** Absolute path to the WordPress directory. */
