@@ -140,7 +140,7 @@
   .video-main .video-link {
     width: 100%;
     max-width: 306px !important;
-    height: 306px !important;
+    /*height: 306px !important;*/
     margin-right: 0 !important;
   }
   /* line 135, ../../scss/modules/video-tabs.scss */
