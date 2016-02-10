@@ -62,9 +62,11 @@ MORAL.Teaching = (function() {
                 }).on('click', '#tab-our-story .contact-btn', function(event) {
                     event.preventDefault();
                     window.location.href = '/teaching/teaching-details/#our-vision';
+                    window.location.reload(true);
                 }).on('click', '#tab-our-vision .contact-btn', function(event) {
                     event.preventDefault();
                     window.location.href = '/teaching/teaching-details/#our-services';
+                    window.location.reload(true);
                 });
 
         },
