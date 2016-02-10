@@ -68,6 +68,22 @@
   width: 420px;
 }
 
+section.left .mask.grunge .svgMask {
+  width: 100%;
+  height: auto;
+  padding-top: 100%;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+@media only screen and (max-width: 480px) {
+  .svgMask {
+    background-size: auto 100%;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   /* line 70, ../../scss/pages/role-modeling.scss */
   .page-role-modeling .page-title {
