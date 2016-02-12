@@ -1,9 +1,9 @@
         <footer id="footer">
             <div class="container clearfix">
                 <div class="social-networks">
-                    <a target="_blank" href="https://www.youtube.com/user/MoralCourageChannel"><i class="fa fa-youtube"></i></a>
-                    <a target="_blank" href="https://www.facebook.com/MoralCourage"><i class="fa fa-facebook"></i></a>
-                    <a target="_blank" href="https://twitter.com/MoralCourage"><i class="fa fa-twitter"></i></a>
+                    <a class="social-icon---youtube" target="_blank" href="https://www.youtube.com/user/MoralCourageChannel"><i class="fa fa-youtube"></i></a>
+                    <a class="social-icon---facebook" target="_blank" href="https://www.facebook.com/MoralCourage"><i class="fa fa-facebook"></i></a>
+                    <a class="social-icon---twitter" target="_blank" href="https://twitter.com/MoralCourage"><i class="fa fa-twitter"></i></a>
                 </div>
                 <p class="copy">&copy; Moral Courage Project <?php echo current_time('Y') ?>. All Rights Reserved. Moral Courage, the <span class="icon-logo"></span> logo, and the Moral Courage logo are trademarks and service marks owned by Moral Courage LLC. Any unauthorized use of these names, or variations of these names, is a violation of state, federal, and international trademark laws.</p>
                 <nav id="footerNav" class="footer-nav">
@@ -18,6 +18,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/libs/fancybox/jquery.fancybox.js"></script>
+        <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/libs/ua-parser/ua-parser.js"></script>
 
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/modules/video-youtube.js"></script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/modules/swapping-images.js"></script>
@@ -45,6 +46,18 @@
 
         <!-- Optimizely -->
         <script src="//cdn.optimizely.com/js/2299600098.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var parser = new UAParser();
+                var userDevice = parser.getDevice();
+                if (userDevice.model == 'iPhone') {
+                    // $('.social-icon---youtube').attr('href', "youtube://MoralCourageChannel");
+                    $('.social-icon---facebook').attr('href', "fb://page/MoralCourage");
+                    $('.social-icon---twitter').attr('href', "twitter://user/id=43139320");
+                }
+            });
+        </script>
 
         <div id="fb-root"></div>
         <?php social_include();?>
