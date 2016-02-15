@@ -469,9 +469,7 @@ function video_info_html($videoData) {
         </a>
 		<br/>
 		<a href="https://www.youtube.com/channel/UCbp94Mntcb2IV9n4BtHXpUg?sub_confirmation=1" class="social-btn btn-youtube" target="_blank" >
-
-			<i class="fa fa-youtube-play"></i>
-			Subscribe on YouTube
+			<i class="fa fa-youtube-play"></i> Subscribe on YouTube
 		</a>
 
         <img class="video--awards" src="<?php echo get_stylesheet_directory_uri(); ?>/images/laurels.png">

@@ -15,7 +15,6 @@
         </footer>
 
         <!-- Place js files here -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/libs/fancybox/jquery.fancybox.js"></script>
         <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/libs/ua-parser/ua-parser.js"></script>
@@ -55,6 +54,11 @@
                     $('.social-icon---youtube').attr('href', "vnd.youtube://user/moralcouragechannel");
                     $('.social-icon---facebook').attr('href', "fb://profile/134654046650348");
                     $('.social-icon---twitter').attr('href', "twitter://user?id=43139320");
+
+                    $('.page-role-modeling .btn-tweet').each(function() {
+                        deepLink = 'twitter://post?message=' + encodeURI($(this).data('text') + ' ' + $(this).data('url'));
+                        $(this).attr('href', deepLink);
+                    })
                 }
             });
         </script>
