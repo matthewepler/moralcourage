@@ -458,12 +458,15 @@ function video_info_html($videoData) {
 			<div class="fb-share-button" data-href="<?php echo $videoData['link']; ?>" data-width="50" data-height="30"></div>
 		</span>
 
-		<span class="social-btn btn-tweet" href="">
-			<i class="fa fa-twitter"></i>
-			Tweet
-			<a href="https://twitter.com/share" class="twitter-share-button" data-text="<?php echo $videoData['twitter-message']; ?>" data-url="<?php echo $videoData['shortLink']; ?>"></a>
+        <style type="text/css">
+        .social-btn.btn-tweet:focus {
+            color: white !important;
+        }
+        </style>
 
-		</span>
+        <a class="social-btn btn-tweet" href="https://twitter.com/intent/tweet?text=<?php echo $videoData['twitter-message']; ?> <?php echo $videoData['shortLink']; ?>" data-text="<?php echo $videoData['twitter-message']; ?>" data-url="<?php echo $videoData['shortLink']; ?>">
+			<i class="fa fa-twitter"></i> Tweet
+        </a>
 		<br/>
 		<a href="https://www.youtube.com/channel/UCbp94Mntcb2IV9n4BtHXpUg?sub_confirmation=1" class="social-btn btn-youtube" target="_blank" >
 
