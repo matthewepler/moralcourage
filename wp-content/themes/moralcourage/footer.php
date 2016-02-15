@@ -52,9 +52,9 @@
                 var parser = new UAParser();
                 var userDevice = parser.getDevice();
                 if (userDevice.model == 'iPhone') {
-                    // $('.social-icon---youtube').attr('href', "youtube://MoralCourageChannel");
-                    $('.social-icon---facebook').attr('href', "fb://page/MoralCourage");
-                    $('.social-icon---twitter').attr('href', "twitter://user/id=43139320");
+                    $('.social-icon---youtube').attr('href', "vnd.youtube://user/moralcouragechannel");
+                    $('.social-icon---facebook').attr('href', "fb://profile/134654046650348");
+                    $('.social-icon---twitter').attr('href', "twitter://user?id=43139320");
                 }
             });
         </script>
