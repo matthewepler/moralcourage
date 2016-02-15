@@ -58,7 +58,11 @@
                     $('.page-role-modeling .btn-tweet').each(function() {
                         deepLink = 'twitter://post?message=' + encodeURI($(this).data('text') + ' ' + $(this).data('url'));
                         $(this).attr('href', deepLink);
-                    })
+                    });
+
+                    $('.page-role-modeling .btn-youtube').each(function() {
+                        $(this).attr('href', "vnd.youtube://user/moralcouragechannel");
+                    });
                 }
             });
         </script>
