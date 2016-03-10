@@ -92,11 +92,12 @@
 .page-teaching-details .testimonials .testimonial-box {
   position: relative;
   background: #d1e8b2;
-  padding: 29px 40px 29px 65px;
+  padding: 29px 40px 29px 85px;
   margin-bottom: 35px;
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
+  text-align: left;
 }
 /* line 69, ../../scss/pages/teaching-details.scss */
 .page-teaching-details .testimonials .testimonial-box:before {
