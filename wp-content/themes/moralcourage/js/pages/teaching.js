@@ -63,10 +63,12 @@ MORAL.Teaching = (function() {
                     event.preventDefault();
                     window.location.href = '/teaching/teaching-details/#our-vision';
                     window.location.reload(true);
+                    $('html,body').scrollTop(0);
                 }).on('click', '#tab-our-vision .contact-btn', function(event) {
                     event.preventDefault();
                     window.location.href = '/teaching/teaching-details/#our-services';
                     window.location.reload(true);
+                    $('html,body').scrollTop(0);
                 });
 
         },
